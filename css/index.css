@@ -10,7 +10,7 @@ body {
 
 nav{
   background-color: rgb(198, 115, 198); 
-  color: rgb(255, 252, 252);
+  color: rgb(255, 255, 255);
   padding: 20px 50px;
 } 
 
@@ -58,7 +58,7 @@ border-radius: 10px;
 
 .slider{
   background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/76cac25d-1871-4f8d-b3df-165883be5509/d59zl7f-e24096ad-c822-4c02-ad22-64fda83c20b8.jpg/v1/fill/w_896,h_504,q_75,strp/sora_wallpaper_by_yuniesummoner_d59zl7f-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTA0IiwicGF0aCI6IlwvZlwvNzZjYWMyNWQtMTg3MS00ZjhkLWIzZGYtMTY1ODgzYmU1NTA5XC9kNTl6bDdmLWUyNDA5NmFkLWM4MjItNGMwMi1hZDIyLTY0ZmRhODNjMjBiOC5qcGciLCJ3aWR0aCI6Ijw9ODk2In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.qaGzwoEUYL27zRUDfBX62kY-ce_8Ges9hNBmvvBxupI)
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);  /*   delete? */
   overflow: hidden;
 }
 
@@ -94,7 +94,7 @@ border-radius: 10px;
   font-size: 60px;
   font-weight: 900;
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0); /*   change color? */
   z-index: 1;
 }
 
@@ -105,8 +105,59 @@ border-radius: 10px;
   font-size: 60px;
   font-weight: 300;
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0); /*   change color? */
   border: 1px solid gray;
   z-index: 1;
 }
 
+.buyButton {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  font-size: 60px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);  /*   change color? */
+  border: 1px solid gray;
+  z-index: 1;
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+
+}
+
+.buyButton:hover{
+  background-color: pink;
+  color:black;
+}
+
+.sliderItem:nth-child(1) .sliderBg {
+  background-color: pink;  /*   change color? */
+}
+
+.sliderItem:nth-child(2) .sliderBg {
+  background-color: red;  /*   change color? */
+}
+.sliderItem:nth-child(3) .sliderBg {
+  background-color: pink;  /*   change color? */
+}
+.sliderItem:nth-child(4) .sliderBg {
+  background-color: black;  /*   change color? */
+}
+.sliderItem:nth-child(5) .sliderBg {
+  background-color: black;  /*   change color? */
+}
+
+.sliderItem:nth-child(1) .sliderPrice {
+  color: yellow; /*   change color? */
+}
+.sliderItem:nth-child(2) .sliderPrice {
+  color: yellow; /*   change color? */
+}
+.sliderItem:nth-child(3) .sliderPrice {
+  color: yellow; /*   change color? */
+}
+.sliderItem:nth-child(4) .sliderPrice {
+  color: yellow; /*   change color? */
+}
+.sliderItem:nth-child(5) .sliderPrice {
+  color: rgb(0, 255, 17); /*   change color? */
+}
