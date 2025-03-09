@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lato", sans-serif;
   padding: 0;
@@ -38,3 +42,71 @@ border-radius: 10px;
   border-bottom: 2px solid green;
   cursor: pointer;
 }
+
+.navBottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuItem{
+  margin-right: 50px;
+  cursor: pointer;
+  color: red;
+  font-weight: 400;
+}
+
+.slider{
+  background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/76cac25d-1871-4f8d-b3df-165883be5509/d59zl7f-e24096ad-c822-4c02-ad22-64fda83c20b8.jpg/v1/fill/w_896,h_504,q_75,strp/sora_wallpaper_by_yuniesummoner_d59zl7f-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTA0IiwicGF0aCI6IlwvZlwvNzZjYWMyNWQtMTg3MS00ZjhkLWIzZGYtMTY1ODgzYmU1NTA5XC9kNTl6bDdmLWUyNDA5NmFkLWM4MjItNGMwMi1hZDIyLTY0ZmRhODNjMjBiOC5qcGciLCJ3aWR0aCI6Ijw9ODk2In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.qaGzwoEUYL27zRUDfBX62kY-ce_8Ges9hNBmvvBxupI)
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  overflow: hidden;
+}
+
+.sliderWrapper {
+  display: flex;
+  width: 500vw;
+  transition: all 1.5s ease-in-out;
+}
+
+.sliderItem {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.sliderBg {
+  width: 750px;
+  height: 750px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.sliderImg {
+  z-index: 1;
+}
+
+.sliderTitle {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.sliderPrice {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  border: 1px solid gray;
+  z-index: 1;
+}
+
