@@ -3,3 +3,38 @@ body {
   padding: 0;
   margin: 0;
 }
+
+nav{
+  background-color: rgb(198, 115, 198); 
+  color: rgb(255, 252, 252);
+  padding: 20px 50px;
+} 
+
+.navTop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+background-color: red;
+padding: 10px 20px;
+border-radius: 10px;
+}
+
+.searchInput{
+  border: none;
+  background-color: transparent;
+}
+
+.searchInput::placeholder{
+  color:lightblue;
+}
+
+.limitedOffer{
+  font-size: 20px;
+  border-bottom: 2px solid green;
+  cursor: pointer;
+}
