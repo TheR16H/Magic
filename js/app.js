@@ -15,7 +15,7 @@ const products = [
       },
       {
         code: "blue",
-        img: "./assets/images/Soraaa.png",
+        img: "./assets/images/Soraaa2.png",
       },
     ],
   },
