@@ -300,3 +300,29 @@ label{
 .payInput::placeholder {
   color:black
 }
+
+.cardImgs{
+ display: flex;
+}
+
+.cardImg{
+  margin-right: 10px;
+
+}
+
+.cardInfo {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.sm{
+  width: 30%;
+}
+
+.payButton{
+  position: absolute;
+  height: 40px;
+  bottom: -40;
+  width: 1005;
+}
