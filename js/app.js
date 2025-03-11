@@ -1,6 +1,8 @@
 const wrapper = document.querySelector(".sliderWrapper");
 const menuItems = document.querySelectorAll(".menuItem");
 
+
+// "code" just means a different style / color. i could list different varients of the same item
 const products = [
   {
     id: 1,
@@ -9,11 +11,11 @@ const products = [
     colors: [
       {
         code: "black",
-        img: "./assets/images/search.png",
+        img: "./assets/images/Soraaa.png",
       },
       {
-        code: "darkblue",
-        img: "./assets/images/search.png",
+        code: "blue",
+        img: "./assets/images/Soraaa.png",
       },
     ],
   },

@@ -226,6 +226,7 @@ margin: 20px;
 
 .colors, .sizes{
   display:flex;
+  margin-bottom: 20px;
 }
 
 .color{
@@ -240,3 +241,26 @@ margin: 20px;
 .color:last-child{
   background-color: blue; /* this is needed if a certain thing has "styles" */
 }
+
+.size{
+  padding: 5px 20px;
+  border: 1px solid black;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.productButton{
+  float: right;
+  padding: 10px 20px;
+  border-color: black;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.productButton:hover{
+background-color: white;
+  color: black
+}
+
