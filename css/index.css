@@ -223,3 +223,20 @@ margin: 20px;
   font-style: 24px;
   color:grey;
 }
+
+.colors, .sizes{
+  display:flex;
+}
+
+.colors{
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: black;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.color:last-child{
+  background-color: blue; /* this is needed if a certain thing has "styles" */
+}
