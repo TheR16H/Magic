@@ -1,3 +1,3 @@
 const wrapper = document.querySelector(".slideWrapper")
 
-wra
+ console.log("something is working");
