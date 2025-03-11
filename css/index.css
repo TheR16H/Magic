@@ -194,3 +194,32 @@ margin: 20px;
   width: 50%;
   height: 100px;
 }
+
+.product {
+  height: 100vh;
+  background-color: whitesmoke; /*   change color? */
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+}
+
+.productImg {
+  width: 50%;
+}
+
+.productDetails {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 40%;
+  padding: 50px;
+}
+
+.productTitle {
+  font-size: 75px;
+  font-weight: 900;
+}
+
+.productDesc {
+  font-style: 24px;
+  color:grey;
+}
