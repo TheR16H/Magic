@@ -20,10 +20,15 @@ nav{
   justify-content: space-between;
 }
 
+.navLogo{
+  width: 120px;
+  height: 50px;
+}
+
 .search{
   display: flex;
   align-items: center;
-background-color: red;
+background-color: black;
 padding: 10px 20px;
 border-radius: 10px;
 }
@@ -34,7 +39,7 @@ border-radius: 10px;
 }
 
 .searchInput::placeholder{
-  color:lightblue;
+  color:rgb(255, 255, 255);
 }
 
 .limitedOffer{
@@ -147,19 +152,24 @@ border-radius: 10px;
 }
 
 .sliderItem:nth-child(1) .sliderPrice {
-  color: yellow; /*   change color? */
+  color: pink; /*   change color? */
+  background-color: black;
 }
 .sliderItem:nth-child(2) .sliderPrice {
   color: yellow; /*   change color? */
+  background-color: black;
 }
 .sliderItem:nth-child(3) .sliderPrice {
   color: yellow; /*   change color? */
+  background-color: black;
 }
 .sliderItem:nth-child(4) .sliderPrice {
   color: yellow; /*   change color? */
+  background-color: black;
 }
 .sliderItem:nth-child(5) .sliderPrice {
   color: rgb(0, 255, 17); /*   change color? */
+  background-color: black;
 }
 
 .features{
