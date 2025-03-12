@@ -21,31 +21,31 @@ const products = [
   },
   {
     id: 2,
-    title: "TWO",
-    price: 149,
+    title: "Assassination Classroom Manga",
+    price: 30,
     colors: [
       {
         code: "lightgray",
-        img: "./assets/images/search.png",
+        img: "./assets/images/AC.jpg",
       },
       {
         code: "green",
-        img: "./assets/images/search.png",
+        img: "./assets/images/AC2.jpg",
       },
     ],
   },
   {
     id: 3,
-    title: "THREE",
-    price: 109,
+    title: "Pikachu Plushie",
+    price: 1000,
     colors: [
       {
         code: "lightgray",
-        img: "./assets/images/search.png",
+        img: "./assets/images/pikaplushie.png",
       },
       {
         code: "green",
-        img: "./assets/images/search.png",
+        img: "./assets/images/pika2.jpg",
       },
     ],
   },
