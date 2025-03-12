@@ -362,3 +362,33 @@ label {
 .galleryImg{
   width: 100%;
 }
+
+.comingSoon{ 
+  display: flex;
+}
+
+.csItem {
+  flex: 1;
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.csImg {
+  width: 100%;
+  height: 500px;
+}
+
+.nsTitle{
+  font-size: 40px;
+}
+
+.csButton{
+  padding: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
